@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon.icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="formulário.css" type="text/css" media="screen">
+    <title>Cadastro de Pets</title>
+</head>
+
+<body>
+    <form id="formulario-pet">
+
+        <div class="campo">
+            <h1 id="titulo">Cadastro de pets</h1>
+            <p id="subtitulo">Complete as informações de seu pet</p>
+            <br>
+        </div>
+
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required aria-label="nome">
+            </div>
+
+            <div class="campo">
+                <label for="raca"><strong>Raça</strong></label>
+                <input type="text" name="raca" id="raca" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="peso"><strong>Peso</strong></label>
+            <input type="text" name="peso" id="peso" required>
+        </div>
+
+
+        <div class="campo">
+            <label><strong>Comportamento: </strong></label>
+            <label>
+                <input type="radio" name="behavior" value="agressivo" checked>Agressivo
+            </label>
+            <label>
+                <input type="radio" name="behavior" value="neutro">Neutro
+            </label>
+            <label>
+                <input type="radio" name="behavior" value="amigavel">Amigável
+            </label>
+        </div>
+
+        
+        <div class="campo">
+            <label for="tamanho"><strong>Tamanho</strong></label>
+            <select name="tamanho" id="tamanho">
+                <option selected disabled value="">Selecione</option>
+                <option>Pequeno</option>
+                <option>Médio</option>
+                <option>Grande</option>
+            </select>
+        </div>
+
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Espécie: </strong></label>
+                <input type="checkbox" name="cachorro" id="cachorro" value="Canino">
+                <label for="cachorro">Canino</label>
+                <input type="checkbox" name="gato" id="gato" value="Felino">
+                <label for="gato">Felino</label>
+            </div>
+            <br> <br>
+        </fieldset>
+
+        <div class="campo">
+            <label><strong>Informações adicionais (sobre o pet): </strong></label>
+            <textarea style="width: 100%;" name="info" id="info"></textarea>
+        </div>
+
+        <button class="botao" type="submit">Concluído</button>
+    </form>
+    <script src="formulario.js"></script>
+</body>
+</html>
