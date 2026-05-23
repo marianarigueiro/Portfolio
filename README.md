@@ -72,15 +72,6 @@ GitHub: https://github.com/marianarigueiro
 
 E-mail: mariana.rigueiro1234@gmail.com
 
----
-
-# Estatísticas do GitHub
-
-![Mariana's GitHub Stats](https://github-readme-stats.vercel.app/api?username=marianarigueiro&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=marianarigueiro&layout=compact&theme=tokyonight)
-
-```bash
-
 https://github-readme-stats.vercel.app/api?username=marianarigueiro&show_icons=true&theme=default
 
 https://github-readme-stats.vercel.app/api/top-langs/?username=marianarigueiro&layout=compact&theme=default
