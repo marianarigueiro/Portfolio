@@ -71,7 +71,3 @@ LinkedIn: www.linkedin.com/in/mariana-rigueiro-561757333
 GitHub: https://github.com/marianarigueiro
 
 E-mail: mariana.rigueiro1234@gmail.com
-
-https://github-readme-stats.vercel.app/api?username=marianarigueiro&show_icons=true&theme=default
-
-https://github-readme-stats.vercel.app/api/top-langs/?username=marianarigueiro&layout=compact&theme=default
